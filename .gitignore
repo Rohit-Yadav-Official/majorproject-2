@@ -1,0 +1,17 @@
+# Build artifacts
+major front/dist
+major back/target
+contracts/artifacts
+contracts/cache
+
+# Dependencies
+node_modules
+
+# OS-specific
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env

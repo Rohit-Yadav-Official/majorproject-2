@@ -1,0 +1,10 @@
+{
+  "contractAddress": "YOUR_DEPLOYED_CONTRACT_ADDRESS",
+  "chainId": 11155111,
+  "rpcUrl": "https://sepolia.infura.io/v3/YOUR_INFURA_PROJECT_ID",
+  "explorerUrl": "https://sepolia.etherscan.io",
+  "networkName": "Sepolia Testnet",
+  "currency": "ETH",
+  "gasPrice": "20000000000",
+  "gasLimit": "500000"
+}
