@@ -6,7 +6,7 @@
   },
   "deploy": {
     "startCommand": "cd major\\ back && java -jar -Dspring.profiles.active=railway target/api-0.0.1-SNAPSHOT.jar",
-    "healthcheckPath": "/actuator/health",
+    "healthcheckPath": "/api/health",
     "healthcheckTimeout": 100,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
