@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["jdk17", "maven"]
+
+[phases.install]
+cmds = ["cd major\\ back && mvn clean package -DskipTests"]
+
+[phases.build]
+cmds = ["echo 'Build completed'"]
+
+[start]
+cmd = "cd major\\ back && java -jar target/api-0.0.1-SNAPSHOT.jar"
